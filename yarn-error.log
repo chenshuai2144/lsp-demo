@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Users\chenshuai\AppData\Local\Volta\tools\image\node\16.14.2\node.exe C:\Users\chenshuai\scoop\apps\nodejs\current\bin\node_modules\yarn\bin\yarn.js add umi-lsp-typescript-plugin@1.0.0
+
+PATH: 
+  C:\Users\chenshuai\AppData\Local\Volta\tools\image\node\16.14.2;C:\Program Files\PowerShell\7;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\chenshuai\scoop\apps\nodejs\current;C:\Program Files\dotnet\;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\lib\x64;C:\Users\chenshuai\scoop\apps\gcc\current\bin;C:\Users\chenshuai\scoop\apps\rustup\current\.cargo\bin;C:\Users\chenshuai\scoop\apps\oh-my-posh\current\bin;C:\Users\chenshuai\scoop\apps\nodejs\current\bin;C:\Users\chenshuai\scoop\shims;C:\Users\chenshuai\AppData\Local\Microsoft\WindowsApps;C:\Users\chenshuai\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chenshuai\AppData\Local\Microsoft\WindowsApps;C:\Users\chenshuai\.dotnet\tools
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmmirror.com/umi-lsp-typescript-plugin: [NOT_FOUND] umi-lsp-typescript-plugin not found
+      at Request.params.callback [as _callback] (C:\Users\chenshuai\scoop\persist\nodejs\bin\node_modules\yarn\lib\cli.js:66138:18)
+      at Request.self.callback (C:\Users\chenshuai\scoop\persist\nodejs\bin\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (C:\Users\chenshuai\scoop\persist\nodejs\bin\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:526:28)
+      at Gunzip.<anonymous> (C:\Users\chenshuai\scoop\persist\nodejs\bin\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:645:28)
+      at Gunzip.emit (node:events:526:28)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "dev": "umi dev",
+      "build": "umi build",
+      "postinstall": "umi setup",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "umi": "^4.0.0-rc.17"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.0",
+      "@types/react-dom": "^18.0.0",
+      "typescript": "^4.1.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
