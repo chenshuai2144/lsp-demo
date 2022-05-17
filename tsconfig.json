@@ -13,6 +13,11 @@
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"]
     },
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "plugins": [
+      {
+        "name": "umi-lsp-typescript-plugin"
+      }
+    ]
   }
 }
