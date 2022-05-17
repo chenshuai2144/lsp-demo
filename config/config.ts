@@ -4,6 +4,7 @@ import { join } from 'path';
 
 export default defineConfig({
   hash: true,
+  // hover上去能展示一些文本
   history: {
     type: 'hash',
   },
