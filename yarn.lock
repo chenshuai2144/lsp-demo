@@ -5087,10 +5087,10 @@ typescript@^4.1.2, typescript@^4.3.2:
   resolved "https://registry.npmmirror.com/typescript/-/typescript-4.6.4.tgz#caa78bbc3a59e6a5c510d35703f6a09877ce45e9"
   integrity sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==
 
-umi-lsp-typescript-plugin@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmmirror.com/umi-lsp-typescript-plugin/-/umi-lsp-typescript-plugin-1.0.0.tgz#2a1d0e14dc50e4984b3911d1e20d50626dc6f2d2"
-  integrity sha512-uAGQnYQJVwurebcQRE5ocgUpdiqDlEbr+xTG/EtoFi7V8inpsDYX9JgMBT8oztBqtRUJZ06K2i5BCnFW2EeKfA==
+umi-lsp-typescript-plugin@1.1.4:
+  version "1.1.4"
+  resolved "https://registry.npmmirror.com/umi-lsp-typescript-plugin/-/umi-lsp-typescript-plugin-1.1.4.tgz#2d2712e4e1a545f05c0c305a264dd32c743d7d6a"
+  integrity sha512-wJLjfc4S3/oG4pQjCf/naXsoeXg82fUlg3jMqCTyw0QMFynfman5TZFTXOzkRD/4MfCQLtvMfCTvft/9C2stcg==
   dependencies:
     "@types/node" "^15.12.2"
     slash2 "^2.0.0"
