@@ -5,11 +5,11 @@ specifiers:
   '@types/react-dom': ^18.0.0
   typescript: ^4.1.2
   umi: ^4.0.0-rc.17
-  umi-lsp-typescript-plugin: 1.1.1
+  umi-lsp-typescript-plugin: 1.1.4
 
 dependencies:
   umi: 4.0.0-rc.17_typescript@4.6.4
-  umi-lsp-typescript-plugin: 1.1.1
+  umi-lsp-typescript-plugin: 1.1.4
 
 devDependencies:
   '@types/react': 18.0.9
@@ -5981,8 +5981,8 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
 
-  /umi-lsp-typescript-plugin/1.1.1:
-    resolution: {integrity: sha512-swAbMc84H12fbFlAkJKStjj+CHtHUE3hp0IIpg03UYPoyZKCIhVffw+tiKK12R28PHWSWTu8BbtNOHeJY79fQA==}
+  /umi-lsp-typescript-plugin/1.1.4:
+    resolution: {integrity: sha512-wJLjfc4S3/oG4pQjCf/naXsoeXg82fUlg3jMqCTyw0QMFynfman5TZFTXOzkRD/4MfCQLtvMfCTvft/9C2stcg==}
     dependencies:
       '@types/node': 15.14.9
       slash2: 2.0.0
